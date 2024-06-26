@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(13, 33, 70);
+            color: white;
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(30, 136, 101);
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.384);
+        }
+        nav {
+            background-color: lightgray;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgb(30, 136, 101);
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(190, 177, 177);
+        }
+        footer {
+            background-color: black;
+            text-align: center; 
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>    
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vitae obcaecati qui voluptate voluptatum fugiat provident architecto, magnam quas debitis earum ex quos dolorem tenetur, distinctio nostrum ab repudiandae dignissimos.</p>
+                <aside>
+                    <p>Artigo escrito por José Paulo da Costa</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Mateus Serretti</p>
+    </footer>
+</body>
+</html>
